@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>Settings</string>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Playback</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Double Tap Jump Interval</string>
+			<key>Key</key>
+			<string>jumpInterval</string>
+			<key>DefaultValue</key>
+			<string>short</string>
+			<key>Titles</key>
+			<array>
+				<string>Extra Short</string>
+				<string>Short</string>
+				<string>Medium</string>
+				<string>Long</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>extraShort</string>
+				<string>short</string>
+				<string>medium</string>
+				<string>long</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>continue</string>
+				<string>never</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Always Continue</string>
+				<string>Never</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>continue</string>
+			<key>Title</key>
+			<string>Continue Playback</string>
+			<key>Key</key>
+			<string>continuePlayback</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Gesture Controls</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Double tap to play/pause</string>
+            <key>Key</key>
+            <string>playPause</string>
+            <key>DefaultValue</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Double tap to jump backward</string>
+            <key>Key</key>
+            <string>jumpBackward</string>
+            <key>DefaultValue</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Double tap to jump forward</string>
+            <key>Key</key>
+            <string>jumpForward</string>
+            <key>DefaultValue</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Swipe to seek</string>
+            <key>Key</key>
+            <string>swipeSeek</string>
+            <key>DefaultValue</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Swipe to change brightness</string>
+            <key>Key</key>
+            <string>swipeBrightness</string>
+            <key>DefaultValue</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>Swipe to change volume</string>
+            <key>Key</key>
+            <string>swipeVolume</string>
+            <key>DefaultValue</key>
+            <true/>
+        </dict>
+	</array>
+</dict>
+</plist>
